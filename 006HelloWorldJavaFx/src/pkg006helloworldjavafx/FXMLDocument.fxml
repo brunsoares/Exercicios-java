@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="269.0" prefWidth="377.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pkg006helloworldjavafx.FXMLDocumentController">
+   <children>
+      <Button fx:id="btnClick" layoutX="110.0" layoutY="187.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="46.0" prefWidth="157.0" text="Clique Aqui!" textFill="#4442e1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblMessage" alignment="CENTER" layoutX="29.0" layoutY="23.0" prefHeight="98.0" prefWidth="320.0" text="Mensagem Secreta, tente descobrir" textFill="#a83bd0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ProgressBar layoutX="79.0" layoutY="141.0" prefHeight="18.0" prefWidth="213.0" />
+   </children>
+</AnchorPane>
